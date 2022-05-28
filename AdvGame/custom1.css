@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+body {
+       background-image: url(images/planet-galaxy.jpg);
+       background-repeat: no-repeat;
+       text-align: center;
+
+    }
+    
+  #gamearea
+    {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height:670px;
+      width:850px;
+      background-color: rgba(3, 83, 157, 0.503);
+      border-radius: 10px;
+      color: rgb(227, 247, 227);
+      padding:20px;
+    }
+  
+    input{
+      color: green;
+      background-color: black;
+      border: solid white 2px;
+    }
+  
+    input:focus {
+      outline: none !important;
+      border-color: #719ECE;
+      /*box-shadow: 0 0 10px #719ECE;*/
+    }
+  
+
+#footer {
+    height: 4rem;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(9, 0, 8, 0.693);
+    color: rgb(233, 231, 231);
+    padding: 1rem;
+    position: fixed;
+}
+
+.bg-light {
+    background-color: rgba(1, 10, 11, 0.588) !important;
+}
+.foot {
+    float: right;
+    font-size: 1.5rem;
+    
+}
+#a-link {
+    color: aliceblue;
+}
+#icon {
+    float: left;
+    padding: 5px;
+}
+.card-title {
+    color: rgb(7, 20, 91);
+}
+.card-text {
+    color: rgb(252, 252, 255);
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(128, 128, 128, 0.48);
+}
+#gameform {
+    padding: 0;
+    margin: 0;
+}
